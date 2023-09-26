@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    overflow: hidden;
+}
+
+
+
+.nav{
+    z-index: 99999;
+    width: 100vw;
+    position: absolute;
+    top: 1.5vh;
+}
+
+ul {
+    padding: 0.8vw;
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+li a{
+    color: rgb(200, 73, 94);
+    text-decoration: none;
+}
+
+.sec{
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.img{
+    width: 50vw;
+    height: 100vh;
+    object-position: center;
+}
+
+.img img{
+    width: 65vw;
+    height: 100vh;
+    object-position: center;
+}
+
+/*--------------------------------------------Welcome--------------------------*/
+.form{
+    z-index: 9;
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form h1{
+    font-size: 8vw;
+    color: rgb(200, 73, 94);
+}
+
+.form button{
+    background-color: rgb(210, 112, 128);
+    color: White;
+    width: 30vw;
+    height: 7vh;
+    border: none;
+    margin-bottom: 1vw;
+    border-radius: 2rem;
+}
+
+/*----------------------------------------------LOG IN FORM--------------------------------*/
+.login{
+    z-index: 1;
+    width: 70vh;
+    height: 60vh;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(210, 112, 128);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1{
+    margin-bottom: 8%;
+    color: rgb(200, 73, 94);
+    font-size: 3rem;
+}
+
+.login input{
+    height: 10%;
+    width: 90%;
+    border: 3px solid rgb(200, 73, 94);
+    margin-bottom: 5%;
+    border-radius: 3rem;
+}
+
+.login button{
+    width: 80%;
+    height: 8%;
+    border-radius: 3rem;
+    background-color: rgb(210, 112, 128);
+    border: none;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: 600;
+}
+
+/*---------------------------SIGN-UP----------------------------*/
+
+
+.sign-up{
+    z-index: 1;
+    width: 70vh;
+    height: 70vh;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(210, 112, 128);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up h1{
+    margin-bottom: 8%;
+    color: rgb(200, 73, 94);
+    font-size: 2.5rem;
+}
+
+
+.sign-up input{
+    height: 10%;
+    width: 90%;
+    border: 3px solid rgb(200, 73, 94);
+    margin-bottom: 5%;
+    border-radius: 3rem;
+}
+
+.sign-up button{
+    width: 80%;
+    height: 8%;
+    border-radius: 3rem;
+    background-color: rgb(210, 112, 128);
+    border: none;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: 600;
+}

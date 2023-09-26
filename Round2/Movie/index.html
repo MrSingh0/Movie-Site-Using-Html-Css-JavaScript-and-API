@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Sidebar</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="option">
+            <span class="material-symbols-outlined oplab">menu</span>
+            <ul>
+                <li><a href="../Home/index.html">HOME</a></li>
+                <li><a href="index.html">MOVIES</a></li>
+                <li><a href="../Login/index.html">SIGN-UP/SIGN-IN</a></li>
+                <li><a href="index.html">CONTACT US</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input type="text" class="value" placeholder="Search Here">
+            <button class="submit"><span class="material-symbols-outlined">search</span></button>
+        </div>
+    </div>
+
+
+    <input type="checkbox" id="menu-toggle">
+    <div id="sidebar">
+        <label for="menu-toggle"><span class="material-symbols-outlined close">close</span></label>
+        <h1>FILTER</h1>
+        <div class="fil">
+
+            <select name="year" class="year">
+                <option value="">Year</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+            <select name="genre" class="genre">
+                <option value="">Genre</option>
+                <option value="Action">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Horror">Horror</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Superhero">Science</option>
+            </select>
+            <select name="lang" class="lang">
+                <option value="">SelectLanguage</option>
+                <option value="hi">Hindi</option>
+                <option value="en">English</option>
+                <option value="te">Telgue</option>
+                <option value="ta">Tamil</option>
+            </select>
+            <button class="bt">SUBMIT</button>
+        </div>
+
+    </div>
+
+    <main>
+        <div class="best">
+            <label for="menu-toggle"><span class="material-symbols-outlined open">
+                    widgets
+                </span></label>
+            <section>
+                <div class="cards rcards">
+
+                </div>
+            </section>
+        </div>
+        <div class="extra">
+            <h1>Please Filter Data by Click on Bottom-left Red Button</h1>
+        </div>
+    </main>
+
+    <div class="page">
+        <span class="material-symbols-outlined clos">close</span>
+        <div class="inf">
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
