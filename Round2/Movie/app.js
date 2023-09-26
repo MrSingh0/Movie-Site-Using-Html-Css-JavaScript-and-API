@@ -83,8 +83,7 @@ btn.addEventListener("click", async () => {
                         <button class="rat">${vote_average}</button>
                     </div>
                 </div>
-            </div>
-            <h3>Suggestion</h3>`;
+            </div>`;
         });
 
         rcards.appendChild(card);

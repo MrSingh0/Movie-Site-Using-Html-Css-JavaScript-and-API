@@ -83,7 +83,7 @@ li a:hover{
 
 /*----------------------------------------------LOG IN FORM--------------------------------*/
 .login{
-    z-index: 1;
+    z-index: 99999;
     width: 70vh;
     height: 60vh;
     background-color: white;
@@ -97,6 +97,7 @@ li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .login h1{
@@ -128,7 +129,7 @@ li a:hover{
 
 
 .sign-up{
-    z-index: 1;
+    z-index: 99;
     width: 70vh;
     height: 70vh;
     background-color: white;
@@ -142,6 +143,7 @@ li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .sign-up h1{
@@ -168,4 +170,8 @@ li a:hover{
     margin-bottom: 5%;
     color: white;
     font-weight: 600;
+}
+
+button{
+    cursor: pointer;
 }

@@ -37,7 +37,6 @@ searching.addEventListener('click', async () => {
 async function ser() {
   let data = await get_data(search);
 
-  search_data.innerHTML = '';
 
   data.results.forEach((ele, i) => {
     let { original_title, original_language, release_date, backdrop_path, poster_path, vote_average } = ele;
@@ -66,7 +65,7 @@ async function get_data(search) {
 
 
 card1.addEventListener('click', () => {
-    video.src = 'https://youtu.be/fPX0C-g5xpU';
+    video.src = 'assets/video/John.mp4';
     title.innerText = "John Wick-4";
     para.innerText = "With the price on his head ever increasing, legendary hit man John Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.";
     label.innerText = "Amazon Prime";
