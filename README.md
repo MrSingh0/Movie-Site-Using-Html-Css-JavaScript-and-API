@@ -1,6 +1,3 @@
-# Akash_Deep-21BCS5908 9113365593
-# Priyam Kumar-21BCS5772 8685090116
-
 # Fully Responsive Movie site
 # Movie Filter with realtime api database.
 # Api used TMDB
